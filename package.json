@@ -1,0 +1,17 @@
+{
+  "name": "streams-reactive-prog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx browser-sync start --server --watch --files \"**/*.html\" \"**/*.css\" \"**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "socket.io-parser": "^4.2.4"
+  }
+}
